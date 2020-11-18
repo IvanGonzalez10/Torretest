@@ -1,8 +1,8 @@
 import React from "react";
-import { Budget } from "./components/Budget/Budget";
+import { Home } from "./pages/Home";
 
 export const App = () => (
   <>
-    <Budget />
+    <Home />
   </>
 );
