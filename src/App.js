@@ -1,5 +1,5 @@
 import React from "react";
-import { Budget } from "./pages/Budget";
+import { Budget } from "./components/Budget/Budget";
 
 export const App = () => (
   <>
