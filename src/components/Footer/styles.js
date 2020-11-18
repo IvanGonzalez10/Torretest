@@ -9,6 +9,7 @@ export const Div = styled.div`
   width: 100vw;
   height: 10vh;
   background-color: #000;
+  font-family: Muli,Helvetica,Arial,sans-serif;
 `;
 
 export const H1 = styled.h1`

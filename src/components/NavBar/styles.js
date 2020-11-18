@@ -12,7 +12,6 @@ export const Nav = styled.nav`
   justify-content: space-around;
   left: 0;
   margin: 0 auto;
-  max-width: 500px;
   position: relative;
   right: 0;
   width: 100vw;
@@ -26,7 +25,7 @@ export const Link = styled(LinkRouter)`
   height: 100%;
   justify-content: center;
   text-decoration: none;
-  width: 100%;
+  width: 100vw;
 
   &[aria-current] {
     color: #cddc39;

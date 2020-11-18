@@ -8,6 +8,7 @@ export const Div = styled.div`
   align-items: center;
   width: 100vw;
   height: 64vh;
+  font-family: Muli,Helvetica,Arial,sans-serif;
 `;
 
 export const H1 = styled.h1`
@@ -22,7 +23,8 @@ export const Button = styled.button`
   border: 0px;
   background-color: #cddc39;
   border-radius: 10px;
-  font-size: 16px
+  font-size: 16px;
+  font-weight: 700;
 `;
 
 export const Input = styled.input`
@@ -31,4 +33,5 @@ export const Input = styled.input`
   margin: 10px 0;
   border: 2px solid black;
   border-radius: 4px;
+  font-size: 14px;
 `;

@@ -24,6 +24,7 @@ export const Budget = () => {
       >
         Add skill
       </Button>
+      <Button>Finish</Button>
     </Div>
   );
 };
