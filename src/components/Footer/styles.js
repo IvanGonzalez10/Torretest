@@ -8,11 +8,11 @@ export const Div = styled.div`
   align-items: center;
   width: 100vw;
   height: 10vh;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.87);
   font-family: Muli,Helvetica,Arial,sans-serif;
 `;
 
 export const H1 = styled.h1`
-  color: white;
+  color: #f3f3f3;
   font-size: 28px
 `;

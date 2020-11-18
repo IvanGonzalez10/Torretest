@@ -4,7 +4,7 @@ import { fadeIn } from '../../styles/Animations';
 
 export const Nav = styled.nav`
   align-items: center;
-  background: #000;
+  background: rgba(0, 0, 0, 0.87);
   border-top: 1px solid #0e0e0e;
   bottom: 0;
   display: flex;
@@ -20,7 +20,7 @@ export const Nav = styled.nav`
 `;
 export const Link = styled(LinkRouter)`
   align-items: center;
-  color: #fff;
+  color: #f3f3f3;
   display: inline-flex;
   height: 100%;
   justify-content: center;

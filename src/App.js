@@ -4,7 +4,7 @@ import { Header } from './components/Header/Header';
 import { Home } from "./pages/Home";
 import { Router } from "@reach/router";
 import { Profile } from './pages/Profile';
-import { Facts } from './pages/Facts';
+import { Instructions } from './pages/Instructions';
 import { NotFound } from './pages/NotFound';
 import { NavBar } from './components/NavBar/NavBar';
 import { Footer } from './components/Footer/Footer';
@@ -17,7 +17,7 @@ export const App = () => (
       <NotFound default />
       <Home path="/" />
       <Profile path="/profile" />
-      <Facts path="/facts" />
+      <Instructions path="/instructions" />
     </Router>
     <NavBar />
     <Footer />

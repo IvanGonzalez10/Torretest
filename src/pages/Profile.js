@@ -1,9 +1,10 @@
 import React from 'react';
+import { Information } from '../components/Information/Information';
 
 export const Profile = () => {
   return (
     <>
-      <h1>Profile</h1>
+      <Information />
     </>
   );
 };

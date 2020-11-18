@@ -8,7 +8,7 @@ export const Div = styled.div`
   align-items: center;
   width: 100vw;
   height: 20vh;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.87);
 `;
 
 export const Img = styled.img`
