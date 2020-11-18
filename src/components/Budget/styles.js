@@ -7,7 +7,7 @@ export const Div = styled.div`
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 70vh;
+  height: 64vh;
 `;
 
 export const H1 = styled.h1`
