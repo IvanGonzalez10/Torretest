@@ -35,3 +35,9 @@ export const Input = styled.input`
   border-radius: 4px;
   font-size: 14px;
 `;
+
+export const Label = styled.label`
+  font-size: 26px;
+  font-weight: 900;
+  color: #0e0;
+`;
