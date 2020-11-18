@@ -7,6 +7,8 @@ export const Div = styled.div`
   justify-content: center;
   align-items: center;
   width: 100vw;
+  height: 20vh;
+  background-color: #000;
 `;
 
 export const Img = styled.img`
