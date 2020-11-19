@@ -8,8 +8,10 @@ export const Budget = () => {
   const [presupuesto, setPresupuesto] = useState("");
   const [habLista, setHabLista] = useState([]);
   const [resta, setResta] = useState("");
+  const [candidato, setCandidato] = useState(null);
+  const [loading, setLoading] = useState(false);
 
-  return (
+  const vistaUno = (
     <Div>
       {resta && <Label> {Calculator(habLista, presupuesto)} </Label>}
       <H1>How much is your Budget?</H1>
@@ -37,6 +39,7 @@ export const Budget = () => {
         </div>
       )}
       <Button
+        disabled={!presupuesto}
         onClick={(event) => {
           event.preventDefault();
           let lista = habLista;
@@ -47,10 +50,33 @@ export const Budget = () => {
       >
         Add skill
       </Button>
-      <Button onClick={(event) => {
+      <Button
+        disabled={!habLista.length > 0}
+        onClick={async (event) => {
           event.preventDefault();
-          peticion(habLista);
-        }}>Search</Button>
+          /* peticion(habLista); */
+          setLoading(true);
+          const resultado = await peticion(habLista);
+          console.log(resultado);
+          setCandidato(resultado);
+          setLoading(false);
+        }}
+      >
+        Search
+      </Button>
     </Div>
   );
+
+  const vistaDos = candidato ?  (
+    <Div>
+      <img src={candidato.results[0].picture} alt="picture" />
+      <h1>{candidato.results[0].name}</h1>
+    </Div>
+  ) : <Div>
+    
+  </Div>;
+
+  const spinner = <Div>Loading...</Div>;
+
+  return loading ? spinner : candidato ? vistaDos : vistaUno;
 };
