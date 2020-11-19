@@ -7,16 +7,16 @@ export const Rules = () => {
       <H1>How to use the app</H1>
 
       <H2>
-        This app helps the recluter that have a range of money to adquirir nuevo
-        talento para su empresa
+      This app helps the recruiter who has a range of money to acquire new talent for their companies or clients.
       </H2>
 
       <H2>Rules are simple</H2>
 
-      <H3>1). You need to know whats the skills you are looking for</H3>
-      <H3>2). Expend the expected budget that you have</H3>
-      <H3>3). Find the best talent with you budget</H3>
-      <H3>4). Contact!</H3>
+      <H3>1). You need to know what the budget is, you need at least 100</H3>
+      <H3>2). You need to know what skills you are looking for, at least 1</H3>
+      <H3>3). Use the budget you have on the skills you are looking for</H3>
+      <H3>4). We show you the best candidate that you can find with you budget</H3>
+      <H3>5). Contact the candidate that the platform show you!</H3>
     </Div>
   );
 };

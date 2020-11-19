@@ -1,22 +1,22 @@
 import React from "react";
-import { Div, H1, H2, H3 } from './styles';
+import { Div, H1, H2, H3, Li } from './styles';
 
 export const Information = () => {
   return (
     <Div>
-      <H1>Main objective</H1>
-      <H3>I am a mechatronichs engineer with passion in software development. My objective is do my best helping with my knowledge to find the best solutions and idealizar new features to the Torre platform.</H3>
-      <H2>The technologies that I use in this poject was:</H2>
+      <H1>Main Goal</H1>
+      <H3>I am a mechatronic engineer with a passion for software development. My goal is to do everything possible helping with my knowledge to find the best solutions and idealize new functionalities for the Torre platform.</H3>
+      <H2>The technologies that I used in this project were:</H2>
       <ul>
-        <li>► HTML</li>
-        <li>► CSS</li>
-        <li>► React</li>
-        <li>► Axios</li>
-        <li>► Vercel</li>
-        <li>► Reach routers</li>
-        <li>► Postman</li>
-        <li>► Git</li>
-        <li>► Github</li>
+        <Li>► HTML</Li>
+        <Li>► CSS</Li>
+        <Li>► React</Li>
+        <Li>► Axios</Li>
+        <Li>► Vercel</Li>
+        <Li>► Reach routers</Li>
+        <Li>► Postman</Li>
+        <Li>► Git</Li>
+        <Li>► Github</Li>
       </ul>
     </Div>
   );

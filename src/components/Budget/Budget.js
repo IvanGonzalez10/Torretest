@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { peticion } from "../ServerCom/ServerCom";
-import { Div, H1, Button, Input, Label } from "./styles";
+import { Div, H1, H2, H3, Button, Input, Label, Img } from "./styles";
 import { Calculator } from "../Calculator/Calculator";
+import { Spinner } from '../../styles/Spinner';
 
 export const Budget = () => {
   const [habilidad, setHabilidad] = useState("");
@@ -39,7 +40,7 @@ export const Budget = () => {
         </div>
       )}
       <Button
-        disabled={!presupuesto}
+        disabled={!presupuesto || !habilidad.length > 0}
         onClick={(event) => {
           event.preventDefault();
           let lista = habLista;
@@ -69,14 +70,18 @@ export const Budget = () => {
 
   const vistaDos = candidato ?  (
     <Div>
-      <img src={candidato.results[0].picture} alt="picture" />
-      <h1>{candidato.results[0].name}</h1>
+      <H1>CONGRATULATIONS!</H1>
+      <H2>This is your ideal candidate</H2>
+      <Img src={candidato.results[0].picture} alt="Candidate" />
+      <H3>Name: {candidato.results[0].name}</H3>
+      <H3>Location: {candidato.results[0].locationName}</H3>
+      <H3>Role: {candidato.results[0].professionalHeadline}</H3>
+      <H3>Weight at Torre: {candidato.results[0].weight}</H3>
     </Div>
   ) : <Div>
-    
   </Div>;
 
-  const spinner = <Div>Loading...</Div>;
+  const spinner = <Div><Spinner /></Div>;
 
   return loading ? spinner : candidato ? vistaDos : vistaUno;
 };
