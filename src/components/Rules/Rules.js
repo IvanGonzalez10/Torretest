@@ -12,10 +12,10 @@ export const Rules = () => {
 
       <H2>Rules are simple</H2>
 
-      <H3>1). You need to know what the budget is, you need at least 100</H3>
-      <H3>2). You need to know what skills you are looking for, at least 1</H3>
-      <H3>3). Use the budget you have on the skills you are looking for</H3>
-      <H3>4). We show you the best candidate that you can find with you budget</H3>
+      <H3>1). You need to know what the budget is, you need at least 100.</H3>
+      <H3>2). You need to know what skills you are looking for, at least 1.</H3>
+      <H3>3). Use the budget you have on the skills you are looking for.</H3>
+      <H3>4). We show you the best candidate that you can find with you budget.</H3>
       <H3>5). Contact the candidate that the platform show you!</H3>
     </Div>
   );

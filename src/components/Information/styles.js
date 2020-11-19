@@ -30,7 +30,7 @@ export const H3 = styled.h3`
 `;
 
 export const Li = styled.li`
-  font-size: 14px;
+  font-size: 12px;
   margin: 0 auto;
   padding: 2px 10px;
   font-weight: 550;

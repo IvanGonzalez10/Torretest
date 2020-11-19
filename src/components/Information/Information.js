@@ -17,6 +17,7 @@ export const Information = () => {
         <Li>► Postman</Li>
         <Li>► Git</Li>
         <Li>► Github</Li>
+        <Li>► Cypress</Li>
       </ul>
     </Div>
   );

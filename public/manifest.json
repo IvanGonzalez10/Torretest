@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "HHRR helper",
+  "name": "An App that helps recruiter to find the best talent",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "rgba(0, 0, 0, 0.87)",
   "background_color": "#ffffff"
 }
