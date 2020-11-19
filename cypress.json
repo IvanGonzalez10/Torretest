@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://torre-test-five.vercel.app/",
+  "baseUrl": "https://torre-test-five.vercel.app",
   "chromeWebSecurity": false,
   "viewportWidth": 500,
   "viweportHeight": 800
