@@ -5,7 +5,7 @@ export const Footer = () => {
 
   return (
     <Div>
-      <H1>Torre 2020</H1>
+      <H1>Torre 2021</H1>
     </Div>
   )
 }
